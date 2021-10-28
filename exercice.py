@@ -56,6 +56,22 @@ fichier pickle
 propre a python
 écrit en format binaire
 Utile pour sauvergarder un gros fichier (plus compacte a regarder et plus sécuritaire, car on peut pas regarder)
+
+
+print(os.getcwd())
+Pour connaitre le chemin relatif pour savoir si bon espace ou pas
+
+os.chdir('../')
+pour changer (reculer de repertoir)
+
+changer le working directory
+
+
+sys.stout = open('./file.txt', 'w')
+print('test')
+print('ecrit dans un fichier')
+sys.stdout.close()
+
 """
 
 PERCENTAGE_TO_LETTER = {"A*": [95, 101], "A": [90, 95], "B+": [85, 90], "B": [80, 85], "C+": [75, 80], "C": [70, 75], "F": [0, 70]}
