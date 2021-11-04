@@ -74,6 +74,14 @@ sys.stdout.close()
 
 """
 
+
+'''
+pendant le cours du 4 novembre, on a corrigé l'exercice 5 
+
+Après, c'est la matière du chapire 9 (qui a pas de vidéo)
+
+'''
+
 PERCENTAGE_TO_LETTER = {"A*": [95, 101], "A": [90, 95], "B+": [85, 90], "B": [80, 85], "C+": [75, 80], "C": [70, 75], "F": [0, 70]}
 
 # TODO: Importez vos modules ici
